@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-l-aosp.xml"/>
+
+  <default remote="caf" revision="refs/tags/android-5.1.0_r1" sync-j="4"/>
+
+  <!-- Galaxy Nexus platform specific things -->
+  <project path="device/samsung/maguro" name="android-device-maguro" remote="sahid" revision="master" />
+  <project path="device/samsung/tuna" name="android-device-tuna" remote="sahid" revision="master" />
+  <project path="device/ti/panda" name="device/ti/panda" revision="master"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
+  <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
+  <project path="hardware/invensense" name="platform/hardware/invensense" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  
+</manifest>

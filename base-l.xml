@@ -118,7 +118,7 @@
   <project name="platform/external/webrtc" path="external/webrtc"/>
   <project name="platform/external/yaffs2" path="external/yaffs2"/>
   <project name="platform/external/zlib" path="external/zlib"/>
-  <project name="platform/external/zopfli" path="external/zopfli"/>
+  <project name="platform/external/zopfli" path="external/zopfli" revision="master"/>
   <project name="platform/frameworks/av" path="frameworks/av"/>
   <project name="platform/frameworks/base" path="frameworks/base"/>
   <project name="platform/frameworks/native" path="frameworks/native"/>
